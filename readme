@@ -1,0 +1,20 @@
+This is a README file for Soccer-Analytics.
+
+If attempting to run the jupyter notebook and you do not already have the database in the project folder, download from here:
+https://www.kaggle.com/hugomathien/soccer (scroll down to the data portion of the page and click download, then save to the same folder the jupyter notebook is in)
+
+The directory contains:
+- this readme
+- database.sqlite
+    - a sqlite database that contains 7 tables from the Kaggle database
+    - this is all the data used in the project
+- Soccer-Analytics.ipynb
+    - a Jupyter notebook with code that cleans the data, selects features, and implements models
+    - this is all the analysis in the project
+
+There are about 325 lines of code in my project.
+
+Code not written by me:
+
+The functions get_previous_matches() and get_goals_in_prev_matches() are both modified from code written by u/airback.
+These helper functions proved to be the most efficient ways of getting the data I needed, in the format I needed it in, to build my models.
